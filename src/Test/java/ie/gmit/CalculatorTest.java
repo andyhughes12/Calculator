@@ -16,7 +16,6 @@ public class CalculatorTest {
     }
 
     @Test
-    @Disabled
     void testSubtract(){
         Calculator MyCal = new Calculator();
         int result = MyCal.Subtract(50,10);
@@ -24,15 +23,13 @@ public class CalculatorTest {
     }
 
     @Test
-    @Disabled
     void testDivide(){
         Calculator MyCal = new Calculator();
-        int result = MyCal.Divide(50,100);
+        int result = MyCal.Divide(100,50);
         assertEquals(2,result,0);
     }
 
     @Test
-    @Disabled
     void testMultiply(){
         Calculator MyCal = new Calculator();
         int result = MyCal.Multiply(5,10);
