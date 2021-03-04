@@ -9,10 +9,9 @@ public class CalculatorTest {
 
     @Test
     void testAdd(){
-        Calculator Mycal = new Calculator();
-        int result = Mycal.add(20,20);
+        Calculator MyCal = new Calculator();
+        int result = MyCal.add(20,20);
         assertEquals(40,result,0);
-
     }
 
     @Test
